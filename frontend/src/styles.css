@@ -1,0 +1,17 @@
+:root{--low:#d1fae5;--med:#fef3c7;--high:#fecaca}
+body{font-family:Inter,Segoe UI,Helvetica,Arial;margin:0;padding:0;background:#f7f7fb;color:#111}
+.top{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:#fff;border-bottom:1px solid #eee}
+.top nav button{margin-left:8px}
+.app{max-width:1000px;margin:20px auto}
+.summary{display:flex;gap:12px}
+.card{padding:8px 12px;border-radius:6px}
+.card.low{background:var(--low)}
+.card.med{background:var(--med)}
+.card.high{background:var(--high)}
+.log-list{list-style:none;padding:0}
+.log{padding:8px;border-bottom:1px solid #eee}
+.pill{padding:3px 8px;border-radius:12px;font-size:12px}
+.pill.low{background:var(--low)}
+.pill.medium,.pill.med{background:var(--med)}
+.pill.high{background:var(--high)}
+.result{margin-top:12px;padding:12px;background:#fff;border:1px solid #eee}
